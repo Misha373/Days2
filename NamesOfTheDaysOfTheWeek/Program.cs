@@ -28,6 +28,3 @@ switch (DateName)
         break;
 }
 Console.ReadKey();
-Console.ReadKey();
-Console.ReadKey();
-Console.ReadKey();
