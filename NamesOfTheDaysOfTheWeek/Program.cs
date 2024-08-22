@@ -3,6 +3,7 @@ Console.WriteLine("Названи днів тижня:");
 Console.WriteLine($"1-Понеділок \n 2-Вівторок \n 3-Cереда \n 4-Четвер \n 5-П'ятниця \n 6-Субота \n 7-Неділя");
 Console.WriteLine("Вибери день тижня:");
 int DateName = Convert.ToInt32(Console.ReadLine());
+
 switch (DateName)
 {
     case 1:
@@ -26,5 +27,7 @@ switch (DateName)
     case 7:
         Console.WriteLine("Сьогодні - Неділя");
         break;
+    default:
+        Console.WriteLine("Некоректне введення");
+        break;
 }
-Console.ReadKey();
